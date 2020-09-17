@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*
+Theme Name: ladate
+Theme URI: https://ladate.safa.devwebgarneau.com
+Author: safa
+Author URI: https://ladate.safa.devwebgarneau.com
+Description: ladate
+Version: 0.1
+Text Domain: markladate /// Important si vous voulez traduire votre theme. 
+*/
+h1{
+    color: aquamarine;
+    font-style: oblique;
+    font-weight: 400;
+}

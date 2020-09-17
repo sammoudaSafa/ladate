@@ -1,0 +1,110 @@
+@charset "utf-8";
+@import "./variables";
+
+@import "../node_modules/bulma/bulma.sass";
+.hero {
+    background-color:$red;
+    background: url(../hearth.jpg) no-repeat top left;
+    .is-2, .is-4{
+        font-weight:bold;
+    }
+    .is-2{
+        color:$orange;
+        font-size: 7em;
+    }
+    .is-4{
+        color:$white;
+    }
+}
+.t-1,.t-2,.t-3{
+    .is-4,.is-3{
+        color:$white;
+    }
+    article{
+        padding:20px 0;
+    }
+    padding: 20px;
+    color:$white;
+    background-color:$red;
+    footer{
+        button{
+            margin-top: 10px;
+        }
+    }
+}
+
+.stell-img{
+    background: url(https://purewows3.imgix.net/images/articles/2017_12/best-books-2017-header.jpg) no-repeat top left;
+}
+.auteur{
+    background: url(../treb.jpg) no-repeat left top;
+}
+
+.m-title{
+    margin-bottom:10px;
+}
+
+.commande{
+    background-color:$bluet;
+    padding: 80px 0;
+    margin-bottom: 50px;
+    color:$white;
+    label{
+        color:$white;
+    }
+    .is-1,.is-2,.is-3,.is-4{
+        color:$white;
+    }
+}
+
+
+.main-footer{
+    background-color:$green;
+}
+
+.books{
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color:$yellow;
+}
+.crits{
+    margin: 50px 0;
+    padding: 50px;
+    background-color:$purple;
+    .is-2{
+        padding-bottom:10px;
+        color:white
+    }
+
+}
+
+.main-footer{
+    padding: 50px 50px;
+    .name{
+        font-size:$size-3;
+        font-weight: bold;   
+    }
+    .join{
+        font-size:$size-7;
+    }
+}
+.boast{
+    .name{
+        font-size:$size-3;
+        font-weight: bold;   
+    }
+    ol{
+        font-weight:bold;
+    }
+}
+.profil{
+    p{
+        margin-bottom:10px;
+    }
+}
+section{
+    padding:0;
+}
+body{
+    background: url(../moroccan-flower.png) repeat top left;
+}
